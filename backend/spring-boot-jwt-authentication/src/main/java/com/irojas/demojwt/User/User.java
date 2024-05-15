@@ -32,9 +32,7 @@ public class User implements UserDetails {
     @GeneratedValue
     Integer id;
     @Basic
-    @Column(nullable = false)
-    String username;
-    @Column(nullable = false)
+    String username; 
     String lastname;
     String firstname;
     String country;
